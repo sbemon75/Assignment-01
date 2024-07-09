@@ -73,7 +73,7 @@ body{
 /* First page css end */
 
 /* why development section starts hare  */
-.second-section{
+.second-section-1{
     width: 1240px;
     height: 1395px;
     margin: 0 auto;
@@ -81,6 +81,57 @@ body{
     margin-top: 60px;
 }
 
+.second-content-1 h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+
+
+}
+.second-content-1 p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.second-content-2 {
+      width: 946px;
+      height: 336px;
+      margin: 0 auto;
+      border: 2px solid green;
+      margin-top: 40px;
+}
+.second-content-sub {
+    width: 50%;
+    height: 50%;
+    border: 0 auto;
+    margin: 2px solid red;
+     
+}
+.second-content-3 {
+    width: 946px;
+    height: 336px;
+    margin: 0 auto;
+    border: 2px solid red;
+    margin-top: 40px;
+}
+.second-content-4 {
+    width: 946px;
+    height: 336px;
+    margin: 0 auto;
+    border: 2px solid blue;
+    margin-top: 40px;
+}
 
 
 /* why development section ends hare  */
