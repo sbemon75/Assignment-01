@@ -75,7 +75,7 @@ body{
 /* why development section starts hare  */
 .second-section-1{
     width: 1240px;
-    height: 1395px;
+    height: 1350px;
     margin: 0 auto;
     border: 2px solid red;
     margin-top: 60px;
@@ -135,3 +135,40 @@ body{
 
 
 /* why development section ends hare  */
+
+/* third section starts hare */
+.third-section{
+    width: 1040px;
+    height: 650px;
+    margin: 0 auto;
+    border: 2px solid red;
+    margin-top: 200px;
+    
+}
+.third-section h2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.third-section p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.video{
+    border-radius: 16px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/* third section ends hare */
