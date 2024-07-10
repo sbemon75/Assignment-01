@@ -15,7 +15,6 @@ body{
     width: 1510px;
     height: 667px;
     margin: 0 auto;
-    border: 2px solid red;
     background-image: url("assets/Hero-bg.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -27,7 +26,6 @@ body{
     width: 898px;
     height: 600px;
     margin: o auto;
-    border: 2px solid green;
     margin-top: 30px;
     margin-left: 300px;
     margin-right: 300px;
@@ -75,9 +73,8 @@ body{
 /* why development section starts hare  */
 .second-section-1{
     width: 1240px;
-    height: 1350px;
+    height: 1550px;
     margin: 0 auto;
-    border: 2px solid red;
     margin-top: 60px;
 }
 
@@ -108,29 +105,146 @@ body{
       width: 946px;
       height: 336px;
       margin: 0 auto;
-      border: 2px solid green;
       margin-top: 40px;
+      display: flex;
+      justify-content: space-between;
+      padding: 40px;
+
 }
-.second-content-sub {
-    width: 50%;
-    height: 50%;
-    border: 0 auto;
-    margin: 2px solid red;
+.second-content-2-text h3{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
      
+}
+.second-content-2-text p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+
+
+}
+.second-content-2-text button{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 150px;
+    height: 48px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+}
+#image-01{
+    width: 300px;
+    height: 200px;
 }
 .second-content-3 {
     width: 946px;
     height: 336px;
     margin: 0 auto;
-    border: 2px solid red;
     margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+#image-02{
+    width: 280px;
+    height: 200px;
+}
+.second-content-3-text h3{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+.second-content-3-text p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7; 
+}
+.second-content-3-text button{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 150px;
+    height: 48px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
 }
 .second-content-4 {
     width: 946px;
     height: 336px;
     margin: 0 auto;
-    border: 2px solid blue;
     margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.second-content-4-text h3{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+.second-content-4-text p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7; 
+}
+.second-content-4-text button{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 150px;
+    height: 48px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+}
+#image-03{
+    width: 300px;
+    height: 200px;
 }
 
 
@@ -141,7 +255,6 @@ body{
     width: 1040px;
     height: 650px;
     margin: 0 auto;
-    border: 2px solid red;
     margin-top: 200px;
     
 }
@@ -173,24 +286,21 @@ body{
 
 /* third section ends hare */
 
+
 /* card section starts hare */
 .h2-p{
     width: 1040px;
     height: 80px;
     margin: 0 auto;
-    border: 2px solid red;
     margin-top: 100px;
-    /* margin-bottom: 100px; */
 
 }
 
 .card-container{
     width: 1040px;
-    height: 300px;
+    height: 320px;
     margin: 0 auto;
-    border: 2px solid red;
-    margin-top: 10px;
-    /* margin-bottom: 10px; */
+    margin-top: 50px;
     display: flex;
 
 }
@@ -214,26 +324,102 @@ body{
     text-align: center;
 }
 .card-html{
-    width: 300px;
-    height: 280px;
+    width: 270px;
+    height: 240px;
     margin-top: 20px;
     margin: 0 auto;
-    border: 2px solid blue;
-    /* display: flex; */
+    border-radius: 10px;
+    background: rgba(255, 76, 30, 0.05);
+    padding: 30px;
+    
 }
+
 .card-css{
-    width: 300px;
-    height: 280px;
+    width: 270px;
+    height: 240px;
     margin-top: 20px;
     margin: 0 auto;
-    border: 2px solid green;
-    /* display: flex; */
+    border-radius: 10px;
+    background: rgba(0, 76, 232, 0.05);
+    padding: 30px;
 }
 .card-js{
-    width: 300px;
-    height: 280px;
+    width: 270px;
+    height: 240px;
     margin-top: 20px;
     margin: 0 auto;
-    border: 2px solid orange;
-    /* display: flex; */
+    border-radius: 10px;
+    background: rgba(255, 223, 0, 0.05);
+    padding: 30px;
 }
+
+/* card section ends hare */
+
+/* i need section starts hare */
+
+.i-need-section{
+    width: 1040px;
+    height: 314px;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
+    background-image: url("./assets/handshake.jpg");
+    background-color: rgba(0,0,0,0.2);
+    background-position:center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.i-need-section h1{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.i-need-section p{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+#comment{
+    width: 448px;
+    height: 57px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+}
+.i-need-section button{
+    font-size: 20px;
+    font-weight: 600;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 58px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+
+}
+
+/* i need section starts hare */
